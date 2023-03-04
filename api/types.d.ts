@@ -14,7 +14,7 @@ export interface Item {
     price: number;
     image: string;
     category: ObjectId;
-    user: ObjectId
+    user: ObjectId;
 }
 
 export interface CategoryType {

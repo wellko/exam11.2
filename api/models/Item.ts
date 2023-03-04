@@ -15,7 +15,7 @@ const ItemSchema = new Schema<Item>({
     },
     price: {
         type: Number,
-        min: [1, 'Must be at least 1or more']
+        min: [1, 'Must be at least 1or more'],
     },
     image: {
         required: true,

@@ -18,7 +18,7 @@ const ItemForm = () => {
     const categories = useAppSelector(selectStateOfCategories);
 
     useEffect(() => {
-        dispatch(getCategories())
+        dispatch(getCategories());
     }, [dispatch])
 
     const initialState: ItemData = {
